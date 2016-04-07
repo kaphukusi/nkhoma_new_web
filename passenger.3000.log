@@ -1,0 +1,310 @@
+2016/02/02 21:02:34 [emerg] 11854#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2016/02/02 21:02:34 [emerg] 11854#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2016/02/02 21:02:34 [emerg] 11854#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2016/02/02 21:02:34 [emerg] 11854#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2016/02/02 21:02:34 [emerg] 11854#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2016/02/02 21:02:34 [emerg] 11854#0: still could not bind()
+[ 2016-02-02 21:02:56.0522 11951/7f799eb837c0 age/Wat/Main.cpp:1264 ]: Starting PassengerAgent watchdog...
+[ 2016-02-02 21:02:56.0588 11954/7fb45c0197c0 age/Hel/Main.cpp:891 ]: Starting PassengerAgent server...
+[ 2016-02-02 21:02:56.0590 11954/7fb45c0197c0 age/Hel/Main.cpp:234 ]: PassengerAgent server running in multi-application mode.
+[ 2016-02-02 21:02:56.0622 11954/7fb45c0197c0 age/Hel/Main.cpp:645 ]: PassengerAgent server online, PID 11954
+[ 2016-02-02 21:02:56.0702 11961/7f786cd3a7c0 age/Log/Main.cpp:439 ]: Starting PassengerAgent logger...
+[ 2016-02-02 21:02:56.0707 11961/7f786cd3a7c0 age/Log/Main.cpp:320 ]: PassengerAgent logger online, PID 11961
+App 12009 stdout: 
+App 12009 stderr: 
+App 12009 stderr: module.js:340
+App 12009 stderr:     throw err;
+App 12009 stderr:        
+App 12009 stderr:    ^
+App 12009 stderr: Error: Cannot find module 'ejs'
+App 12009 stderr:     at Function.Module._resolveFilename (module.js:338:15)
+App 12009 stderr:     at Function.Module._load (module.js:280:25)
+App 12009 stderr:     at Module.require (module.js:364:17)
+App 12009 stderr:     at require (module.js:380:17)
+App 12009 stderr:     at Object.<anonymous> (/var/www/personal/nkhoma_university/app.js:15:21)
+App 12009 stderr:     at Module._compile (module.js:456:26)
+App 12009 stderr:     at Object.Module._extensions..js (module.js:474:10)
+App 12009 stderr:     at Module.load (module.js:356:32)
+App 12009 stderr:     at Function.Module._load (module.js:312:12)
+App 12009 stderr:     at Module.require (module.js:364:17)
+[ 2016-02-02 21:02:58.6792 11954/7fb4546f3700 App/Implementation.cpp:287 ]: Could not spawn process for application /var/www/personal/nkhoma_university: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger.
+  Error ID: 548a0a43
+  Error details saved to: /tmp/passenger-error-bxRXOg.html
+  Message from application: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger. Please read <a href="https://github.com/phusion/passenger/wiki/Debugging-application-startup-problems">this article</a> for more information about this problem.<br>
+<h2>Raw process output:</h2>
+<pre>
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module &apos;ejs&apos;
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.&lt;anonymous&gt; (/var/www/personal/nkhoma_university/app.js:15:21)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+</pre>
+
+[ 2016-02-02 21:02:58.7097 11954/7fb455736700 age/Hel/Req/CheckoutSession.cpp:252 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 548a0a43. Please see earlier logs for details about the error.
+App 12026 stdout: 
+App 12026 stderr: 
+App 12026 stderr: module.js:340
+App 12026 stderr:     throw err;
+App 12026 stderr:           ^
+App 12026 stderr: Error: Cannot find module 'ejs'
+App 12026 stderr:     at Function.Module._resolveFilename (module.js:338:15)
+App 12026 stderr:     at Function.Module._load (module.js:280:25)
+App 12026 stderr:     at Module.require (module.js:364:17)
+App 12026 stderr:     at require (module.js:380:17)
+App 12026 stderr:     at Object.<anonymous> (/var/www/personal/nkhoma_university/app.js:15:21)
+App 12026 stderr:     at Module._compile (module.js:456:26)
+App 12026 stderr:     at Object.Module._extensions..js (module.js:474:10)
+App 12026 stderr:     at Module.load (module.js:356:32)
+App 12026 stderr:     at Function.Module._load (module.js:312:12)
+App 12026 stderr:     at Module.require (module.js:364:17)
+[ 2016-02-02 21:03:16.7267 11954/7fb4546f3700 App/Implementation.cpp:287 ]: Could not spawn process for application /var/www/personal/nkhoma_university: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger.
+  Error ID: 5af650d5
+  Error details saved to: /tmp/passenger-error-f64dtT.html
+  Message from application: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger. Please read <a href="https://github.com/phusion/passenger/wiki/Debugging-application-startup-problems">this article</a> for more information about this problem.<br>
+<h2>Raw process output:</h2>
+<pre>
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module &apos;ejs&apos;
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.&lt;anonymous&gt; (/var/www/personal/nkhoma_university/app.js:15:21)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+</pre>
+
+[ 2016-02-02 21:03:16.7333 11954/7fb454f35700 age/Hel/Req/CheckoutSession.cpp:252 ]: [Client 2-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 5af650d5. Please see earlier logs for details about the error.
+
+
+[ 2016-02-02 21:20:59.1801 11954/7fb455736700 age/Hel/Main.cpp:455 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-02-02 21:20:59.1801 11961/7f7866540700 age/Log/Main.cpp:346 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-02-02 21:20:59.1802 11961/7f786cd3a7c0 age/Log/Main.cpp:408 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-02-02 21:20:59.1803 11954/7fb45c0197c0 age/Hel/Main.cpp:814 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-02-02 21:20:59.1804 11961/7f7866540700 Ser/Server.h:455 ]: [LoggerAdminServer] Shutdown finished
+[ 2016-02-02 21:20:59.1804 11954/7fb455736700 Ser/Server.h:455 ]: [ServerThr.1] Shutdown finished
+[ 2016-02-02 21:20:59.1805 11954/7fb44effd700 Ser/Server.h:455 ]: [ServerThr.5] Shutdown finished
+[ 2016-02-02 21:20:59.1805 11954/7fb44dffb700 Ser/Server.h:455 ]: [ServerThr.7] Shutdown finished
+[ 2016-02-02 21:20:59.1805 11954/7fb44ffff700 Ser/Server.h:455 ]: [ServerThr.3] Shutdown finished
+[ 2016-02-02 21:20:59.1806 11954/7fb44f7fe700 Ser/Server.h:455 ]: [ServerThr.4] Shutdown finished
+[ 2016-02-02 21:20:59.1805 11954/7fb44e7fc700 Ser/Server.h:455 ]: [ServerThr.6] Shutdown finished
+[ 2016-02-02 21:20:59.1806 11954/7fb454f35700 Ser/Server.h:455 ]: [ServerThr.2] Shutdown finished
+[ 2016-02-02 21:20:59.1808 11961/7f786cd3a7c0 age/Log/Main.cpp:433 ]: PassengerAgent logger shutdown finished
+[ 2016-02-02 21:20:59.1814 11954/7fb44cff9700 Ser/Server.h:455 ]: [AdminServer] Shutdown finished
+[ 2016-02-02 21:20:59.1805 11954/7fb44d7fa700 Ser/Server.h:455 ]: [ServerThr.8] Shutdown finished
+[ 2016-02-02 21:20:59.2054 11954/7fb45c0197c0 age/Hel/Main.cpp:876 ]: PassengerAgent server shutdown finished
+[ 2016-02-02 21:21:02.3200 12304/7f4fa39a07c0 age/Wat/Main.cpp:1264 ]: Starting PassengerAgent watchdog...
+[ 2016-02-02 21:21:02.3266 12307/7f4c03d247c0 age/Hel/Main.cpp:891 ]: Starting PassengerAgent server...
+[ 2016-02-02 21:21:02.3268 12307/7f4c03d247c0 age/Hel/Main.cpp:234 ]: PassengerAgent server running in multi-application mode.
+[ 2016-02-02 21:21:02.3302 12307/7f4c03d247c0 age/Hel/Main.cpp:645 ]: PassengerAgent server online, PID 12307
+[ 2016-02-02 21:21:02.3372 12314/7fa522ed67c0 age/Log/Main.cpp:439 ]: Starting PassengerAgent logger...
+[ 2016-02-02 21:21:02.3376 12314/7fa522ed67c0 age/Log/Main.cpp:320 ]: PassengerAgent logger online, PID 12314
+App 12363 stdout: 
+App 12363 stderr: 
+App 12363 stderr: module.js:340
+App 12363 stderr:     throw err;
+App 12363 stderr:           ^
+App 12363 stderr: Error: Cannot find module 'ejs'
+App 12363 stderr:     at Function.Module._resolveFilename (module.js:338:15)
+App 12363 stderr:     at Function.Module._load (module.js:280:25)
+App 12363 stderr:     at Module.require (module.js:364:17)
+App 12363 stderr:     at require (module.js:380:17)
+App 12363 stderr:     at Object.<anonymous> (/var/www/personal/nkhoma_university/app.js:15:21)
+App 12363 stderr:     at Module._compile (module.js:456:26)
+App 12363 stderr:     at Object.Module._extensions..js (module.js:474:10)
+App 12363 stderr:     at Module.load (module.js:356:32)
+App 12363 stderr:     at Function.Module._load (module.js:312:12)
+App 12363 stderr:     at Module.require (module.js:364:17)
+[ 2016-02-02 21:21:04.5447 12307/7f4bfc3fe700 App/Implementation.cpp:287 ]: Could not spawn process for application /var/www/personal/nkhoma_university: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger.
+  Error ID: df6d4a20
+  Error details saved to: /tmp/passenger-error-CbSBJ0.html
+  Message from application: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger. Please read <a href="https://github.com/phusion/passenger/wiki/Debugging-application-startup-problems">this article</a> for more information about this problem.<br>
+<h2>Raw process output:</h2>
+<pre>
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module &apos;ejs&apos;
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.&lt;anonymous&gt; (/var/www/personal/nkhoma_university/app.js:15:21)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+</pre>
+
+[ 2016-02-02 21:21:04.5517 12307/7f4bfd441700 age/Hel/Req/CheckoutSession.cpp:252 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is df6d4a20. Please see earlier logs for details about the error.
+
+
+[ 2016-02-02 21:21:16.0303 12314/7fa517fff700 age/Log/Main.cpp:346 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-02-02 21:21:16.0303 12307/7f4bfd441700 age/Hel/Main.cpp:455 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-02-02 21:21:16.0304 12314/7fa522ed67c0 age/Log/Main.cpp:408 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-02-02 21:21:16.0304 12307/7f4c03d247c0 age/Hel/Main.cpp:814 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-02-02 21:21:16.0306 12307/7f4bfd441700 Ser/Server.h:455 ]: [ServerThr.1] Shutdown finished
+[ 2016-02-02 21:21:16.0306 12314/7fa517fff700 Ser/Server.h:455 ]: [LoggerAdminServer] Shutdown finished
+[ 2016-02-02 21:21:16.0306 12307/7f4be7fff700 Ser/Server.h:455 ]: [ServerThr.3] Shutdown finished
+[ 2016-02-02 21:21:16.0307 12307/7f4bfcc40700 Ser/Server.h:455 ]: [ServerThr.2] Shutdown finished
+[ 2016-02-02 21:21:16.0308 12307/7f4be77fe700 Ser/Server.h:455 ]: [ServerThr.4] Shutdown finished
+[ 2016-02-02 21:21:16.0308 12307/7f4be6ffd700 Ser/Server.h:455 ]: [ServerThr.5] Shutdown finished
+[ 2016-02-02 21:21:16.0309 12307/7f4be67fc700 Ser/Server.h:455 ]: [ServerThr.6] Shutdown finished
+[ 2016-02-02 21:21:16.0309 12307/7f4be5ffb700 Ser/Server.h:455 ]: [ServerThr.7] Shutdown finished
+[ 2016-02-02 21:21:16.0310 12307/7f4be57fa700 Ser/Server.h:455 ]: [ServerThr.8] Shutdown finished
+[ 2016-02-02 21:21:16.0314 12314/7fa522ed67c0 age/Log/Main.cpp:433 ]: PassengerAgent logger shutdown finished
+[ 2016-02-02 21:21:16.0317 12307/7f4be4ff9700 Ser/Server.h:455 ]: [AdminServer] Shutdown finished
+[ 2016-02-02 21:21:16.0448 12307/7f4c03d247c0 age/Hel/Main.cpp:876 ]: PassengerAgent server shutdown finished
+2016/02/10 21:24:16 [emerg] 25494#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2016/02/10 21:24:16 [emerg] 25494#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2016/02/10 21:24:16 [emerg] 25494#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2016/02/10 21:24:16 [emerg] 25494#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2016/02/10 21:24:16 [emerg] 25494#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2016/02/10 21:24:16 [emerg] 25494#0: still could not bind()
+[ 2016-02-25 07:38:45.1715 2714/7f7d7de507c0 age/Wat/Main.cpp:1264 ]: Starting PassengerAgent watchdog...
+[ 2016-02-25 07:38:45.2004 2717/7fd889df97c0 age/Hel/Main.cpp:891 ]: Starting PassengerAgent server...
+[ 2016-02-25 07:38:45.2005 2717/7fd889df97c0 age/Hel/Main.cpp:234 ]: PassengerAgent server running in multi-application mode.
+[ 2016-02-25 07:38:45.2323 2717/7fd889df97c0 age/Hel/Main.cpp:645 ]: PassengerAgent server online, PID 2717
+[ 2016-02-25 07:38:45.2377 2726/7faa4fa297c0 age/Log/Main.cpp:439 ]: Starting PassengerAgent logger...
+[ 2016-02-25 07:38:45.2386 2726/7faa4fa297c0 age/Log/Main.cpp:320 ]: PassengerAgent logger online, PID 2726
+App 2780 stdout: 
+App 2780 stderr: 
+App 2780 stderr: module.js:340
+App 2780 stderr:     throw err;
+App 2780 stderr:           ^
+App 2780 stderr: Error: Cannot find module 'ejs'
+App 2780 stderr:     at Function.Module._resolveFilename (module.js:338:15)
+App 2780 stderr:     at Function.Module._load (module.js:280:25)
+App 2780 stderr:     at Module.require (module.js:364:17)
+App 2780 stderr:     at require (module.js:380:17)
+App 2780 stderr:     at Object.<anonymous> (/var/www/personal/nkhoma_university/app.js:15:21)
+App 2780 stderr:     at Module._compile (module.js:456:26)
+App 2780 stderr:     at Object.Module._extensions..js (module.js:474:10)
+App 2780 stderr:     at Module.load (module.js:356:32)
+App 2780 stderr:     at Function.Module._load (module.js:312:12)
+App 2780 stderr:     at Module.require (module.js:364:17)
+[ 2016-02-25 07:38:47.6829 2717/7fd8804d0700 App/Implementation.cpp:287 ]: Could not spawn process for application /var/www/personal/nkhoma_university: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger.
+  Error ID: 692ee77a
+  Error details saved to: /tmp/passenger-error-MfYoXi.html
+  Message from application: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger. Please read <a href="https://github.com/phusion/passenger/wiki/Debugging-application-startup-problems">this article</a> for more information about this problem.<br>
+<h2>Raw process output:</h2>
+<pre>
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module &apos;ejs&apos;
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.&lt;anonymous&gt; (/var/www/personal/nkhoma_university/app.js:15:21)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+</pre>
+
+[ 2016-02-25 07:38:47.7081 2717/7fd883517700 age/Hel/Req/CheckoutSession.cpp:252 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 692ee77a. Please see earlier logs for details about the error.
+
+
+[ 2016-02-25 07:39:10.0792 2717/7fd883517700 age/Hel/Main.cpp:455 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-02-25 07:39:10.0792 2726/7faa49230700 age/Log/Main.cpp:346 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-02-25 07:39:10.0793 2726/7faa4fa297c0 age/Log/Main.cpp:408 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-02-25 07:39:10.0793 2717/7fd889df97c0 age/Hel/Main.cpp:814 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-02-25 07:39:10.0794 2726/7faa49230700 Ser/Server.h:455 ]: [LoggerAdminServer] Shutdown finished
+[ 2016-02-25 07:39:10.0795 2717/7fd883517700 Ser/Server.h:455 ]: [ServerThr.1] Shutdown finished
+[ 2016-02-25 07:39:10.0795 2717/7fd882d16700 Ser/Server.h:455 ]: [ServerThr.2] Shutdown finished
+[ 2016-02-25 07:39:10.0795 2717/7fd881d14700 Ser/Server.h:455 ]: [ServerThr.4] Shutdown finished
+[ 2016-02-25 07:39:10.0796 2717/7fd85b7fe700 Ser/Server.h:455 ]: [ServerThr.8] Shutdown finished
+[ 2016-02-25 07:39:10.0796 2717/7fd882515700 Ser/Server.h:455 ]: [ServerThr.3] Shutdown finished
+[ 2016-02-25 07:39:10.0796 2717/7fd881513700 Ser/Server.h:455 ]: [ServerThr.5] Shutdown finished
+[ 2016-02-25 07:39:10.0797 2717/7fd85bfff700 Ser/Server.h:455 ]: [ServerThr.7] Shutdown finished
+[ 2016-02-25 07:39:10.0797 2726/7faa4fa297c0 age/Log/Main.cpp:433 ]: PassengerAgent logger shutdown finished
+[ 2016-02-25 07:39:10.0797 2717/7fd85affd700 Ser/Server.h:455 ]: [AdminServer] Shutdown finished
+[ 2016-02-25 07:39:10.0797 2717/7fd880d12700 Ser/Server.h:455 ]: [ServerThr.6] Shutdown finished
+[ 2016-02-25 07:39:10.0930 2717/7fd889df97c0 age/Hel/Main.cpp:876 ]: PassengerAgent server shutdown finished
+[ 2016-03-09 21:01:34.9016 11504/7fd2c1b057c0 age/Wat/Main.cpp:1264 ]: Starting PassengerAgent watchdog...
+[ 2016-03-09 21:01:34.9188 11507/7fa32a5267c0 age/Hel/Main.cpp:891 ]: Starting PassengerAgent server...
+[ 2016-03-09 21:01:34.9190 11507/7fa32a5267c0 age/Hel/Main.cpp:234 ]: PassengerAgent server running in multi-application mode.
+[ 2016-03-09 21:01:34.9211 11507/7fa32a5267c0 age/Hel/Main.cpp:645 ]: PassengerAgent server online, PID 11507
+[ 2016-03-09 21:01:34.9263 11515/7f1ffd35f7c0 age/Log/Main.cpp:439 ]: Starting PassengerAgent logger...
+[ 2016-03-09 21:01:34.9266 11515/7f1ffd35f7c0 age/Log/Main.cpp:320 ]: PassengerAgent logger online, PID 11515
+App 11554 stdout: 
+App 11554 stderr: 
+App 11554 stderr: module.js:340
+App 11554 stderr:     throw err;
+App 11554 stderr:           
+App 11554 stderr: ^
+App 11554 stderr: Error: Cannot find module 'ejs'
+App 11554 stderr:     at Function.Module._resolveFilename (module.js:338:15)
+App 11554 stderr:     at Function.Module._load (module.js:280:25)
+App 11554 stderr:     at Module.require (module.js:364:17)
+App 11554 stderr:     at require (module.js:380:17)
+App 11554 stderr:     at Object.<anonymous> (/var/www/personal/nkhoma_university/app.js:15:21)
+App 11554 stderr:     at Module._compile (module.js:456:26)
+App 11554 stderr:     at Object.Module._extensions..js (module.js:474:10)
+App 11554 stderr:     at Module.load (module.js:356:32)
+App 11554 stderr:     at Function.Module._load (module.js:312:12)
+App 11554 stderr:     at Module.require (module.js:364:17)
+[ 2016-03-09 21:01:37.6023 11507/7fa324403700 App/Implementation.cpp:287 ]: Could not spawn process for application /var/www/personal/nkhoma_university: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger.
+  Error ID: 30ca65c1
+  Error details saved to: /tmp/passenger-error-Q8p2LP.html
+  Message from application: An error occurred while starting the web application. It exited before signalling successful startup back to Phusion Passenger. Please read <a href="https://github.com/phusion/passenger/wiki/Debugging-application-startup-problems">this article</a> for more information about this problem.<br>
+<h2>Raw process output:</h2>
+<pre>
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module &apos;ejs&apos;
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.&lt;anonymous&gt; (/var/www/personal/nkhoma_university/app.js:15:21)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+</pre>
+
+[ 2016-03-09 21:01:37.6271 11507/7fa31f7fe700 age/Hel/Req/CheckoutSession.cpp:252 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 30ca65c1. Please see earlier logs for details about the error.
+
+
+[ 2016-03-09 21:01:39.7977 11507/7fa31f7fe700 age/Hel/Main.cpp:455 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-03-09 21:01:39.7977 11515/7f1ff6b65700 age/Log/Main.cpp:346 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-03-09 21:01:39.7978 11515/7f1ffd35f7c0 age/Log/Main.cpp:408 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-03-09 21:01:39.7978 11507/7fa32a5267c0 age/Hel/Main.cpp:814 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-03-09 21:01:39.7978 11515/7f1ff6b65700 Ser/Server.h:455 ]: [LoggerAdminServer] Shutdown finished
+[ 2016-03-09 21:01:39.7978 11507/7fa31f7fe700 Ser/Server.h:455 ]: [ServerThr.1] Shutdown finished
+[ 2016-03-09 21:01:39.7978 11507/7fa31effd700 Ser/Server.h:455 ]: [ServerThr.2] Shutdown finished
+[ 2016-03-09 21:01:39.7978 11507/7fa31e7fc700 Ser/Server.h:455 ]: [ServerThr.3] Shutdown finished
+[ 2016-03-09 21:01:39.7979 11515/7f1ffd35f7c0 age/Log/Main.cpp:433 ]: PassengerAgent logger shutdown finished
+[ 2016-03-09 21:01:39.7979 11507/7fa31dffb700 Ser/Server.h:455 ]: [ServerThr.4] Shutdown finished
+[ 2016-03-09 21:01:39.7979 11507/7fa31d7fa700 Ser/Server.h:455 ]: [ServerThr.5] Shutdown finished
+[ 2016-03-09 21:01:39.7979 11507/7fa31cff9700 Ser/Server.h:455 ]: [ServerThr.6] Shutdown finished
+[ 2016-03-09 21:01:39.7979 11507/7fa2fffff700 Ser/Server.h:455 ]: [ServerThr.7] Shutdown finished
+[ 2016-03-09 21:01:39.7979 11507/7fa2ff7fe700 Ser/Server.h:455 ]: [ServerThr.8] Shutdown finished
+[ 2016-03-09 21:01:39.7980 11507/7fa2feffd700 Ser/Server.h:455 ]: [AdminServer] Shutdown finished
+[ 2016-03-09 21:01:39.8092 11507/7fa32a5267c0 age/Hel/Main.cpp:876 ]: PassengerAgent server shutdown finished
