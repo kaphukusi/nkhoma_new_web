@@ -11,15 +11,15 @@ router.get('/about', function(req, res, next) {
 });
 
 router.get('/courses', function(req, res, next) {
-  res.render('courses', { title: 'Our Services' });
+  res.render('courses', { title: 'Our Courses' });
 });
 
 router.get('/events', function(req, res, next) {
-  res.render('events', { title: 'Our Services' });
+  res.render('events', { title: 'Nkhoma University Events' });
 });
 
 router.get('/gallery', function(req, res, next) {
-  res.render('gallery', { title: 'Our Services' });
+  res.render('gallery', { title: 'Nkhoma University Gallery' });
 });
 
 router.get('/services', function(req, res, next) {
@@ -28,26 +28,6 @@ router.get('/services', function(req, res, next) {
 
 router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact Us' });
-});
-
-router.get('/portfolio-1-col', function(req, res, next) {
-  res.render('portfolio-1-col', { title: 'Contact Us' });
-});
-
-router.get('/portfolio-2-col', function(req, res, next) {
-  res.render('portfolio-2-col', { title: 'Contact Us' });
-});
-
-router.get('/portfolio-3-col', function(req, res, next) {
-  res.render('portfolio-3-col', { title: 'Contact Us' });
-});
-
-router.get('/portfolio-4-col', function(req, res, next) {
-  res.render('portfolio-4-col', { title: 'Contact Us' });
-});
-
-router.get('/portfolio-item', function(req, res, next) {
-  res.render('portfolio-item', { title: 'Contact Us' });
 });
 
 module.exports = router;
